@@ -52,5 +52,5 @@ large diversity of images and videos show that the certain aspects of the system
 outperform the state-of-the-art research that exists.
 
 ## Demo
-![pipline](Figure/evaluation.jpg)
-![pipline](Figure/img-evaluation.jpg)
+![pipline](Figure/demo1.jpg)
+![pipline](Figure/demo2.jpg)
