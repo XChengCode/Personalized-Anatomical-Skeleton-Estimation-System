@@ -5,11 +5,22 @@
 1. Place test images in the folder `test_pictures` and test videos in the folder `test_videos`.
 
 2. Run the system with 3 steps:
+
 (1) 2D pose estimation:
-`python 2DPoseEstimation.py --cfg halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint halpe_26/halpe26_fast_res50_256x192.pth --indir test_pictures --outdir Landmarks/` or `python 2DPoseEstimation.py --cfg halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint halpe_26/halpe26_fast_res50_256x192.pth --video test_videos/{video_name} --outdir Landmarks/`
+
+`python 2DPoseEstimation.py --cfg halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint halpe_26/halpe26_fast_res50_256x192.pth --indir test_pictures --outdir Landmarks/` 
+
+or 
+
+`python 2DPoseEstimation.py --cfg halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint halpe_26/halpe26_fast_res50_256x192.pth --video test_videos/{video_name} --outdir Landmarks/`
+
+
 (2) Converting 2D pose to 3D landmark points.:
+
 `python 3DPoseEstimation.py --vid_path test_videos/sample_video.mp4 --json_path Landmarks/alphapose-results.json --out_path Landmarks`
+
 (3) Personalized anatomical skeleton generation
+
 `python run.py`
 
 Pre-trained models are available here:
