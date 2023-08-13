@@ -1,7 +1,7 @@
 # Personalized-Anatomical-Skeleton-Estimation-System
 ### Author: Boyuan Cheng
 
-![pipline](Figure/demo.png)
+![pipline](Figure/demo.jpg)
 
 ## Usage
 1. Place test images in the folder `test_pictures` and test videos in the folder `test_videos`.
