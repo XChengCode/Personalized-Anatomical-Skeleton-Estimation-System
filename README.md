@@ -25,9 +25,9 @@ or
 
 Pre-trained models are available here:
 
-[yolov3_spp_weights]([https://github.com/isl-org/MiDaS](https://pjreddie.com/darknet/yolo/)): Put into path `detector/yolo/data/yolov3-spp.weights`
+[yolov3_spp_weights]([[https://github.com/isl-org/MiDaS](https://pjreddie.com/darknet/yolo/)]): Put into path `detector/yolo/data/yolov3-spp.weights`
 
-[halpe26_fast_res50_256x192]([https://github.com/fenglinglwb/MAT](https://drive.google.com/file/d/1S-ROA28de-1zvLv-hVfPFJ5tFBYOSITb/view)): Put into path `halpe_26/halpe26_fast_res50_256x192.pth`
+[halpe26_fast_res50_256x192]([https://drive.google.com/file/d/1S-ROA28de-1zvLv-hVfPFJ5tFBYOSITb/view]): Put into path `halpe_26/halpe26_fast_res50_256x192.pth`
 
 ## 1. Introduction
 With the development of Computer Graphics technology as well as deep learning technology, it has become possible to convert 2D images into 3D models using computer algorithms. In the past few years, many implementations of 3D reconstruction techniques have been proposed, some of which have been widely used in areas such as film and television entertainment, intelligent homes, heritage reconstruction, and autonomous driving and etc. A common method to reconstruct a 3D model is to place multiple depth cameras around an object and capture images simultaneously, and then reconstruct the 3D shape of the object based on the captured images. However, since most systems based on this approach require multiple cameras and synchronization devices, it is difficult for most users to use these systems flexibly. In addition, modeling a 3D scene is generally very complex and time-consuming. Especially in distant scenes that do not require much detail, it is not worth spending much time modeling the scene.
