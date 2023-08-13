@@ -6,7 +6,7 @@
 
 2. Run the system with 3 steps:
 
-(1) 2D pose estimation:
+  (1) 2D pose estimation:
 
 `python 2DPoseEstimation.py --cfg halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint halpe_26/halpe26_fast_res50_256x192.pth --indir test_pictures --outdir Landmarks/` 
 
